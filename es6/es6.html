@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*var a=14
+		console.log(a)
+		var a=20
+		console.log(a)*/
+		/*const a=4
+		console.log(a)
+		const m=5
+		console.log(m)*/
+		/*let u=435
+		console.log(5)
+		k=5
+		console.log(k)*/
+		//MAP METHOD
+		//var v=[1,2,3,4,5,{name:karthik},{name:siva}]
+		/*var f=[1,2,3,4,5,6,7,8,9,10],update=[]
+		update=f.map(function(v){
+			return v*10
+		})
+		console.log(update)*/
+		var k=[{id:1,name:"karthik",salary:50000},{id:2,name:"siva",salary:55000},{id:3,name:"rajesh",salary:50000}]
+			k.map(function(j){
+				console.log(j.name)
+			})
+			var highestsalary=k.filter(function(t){
+				return t.salary>=50000
+			})
+			console.log(highestsalary)
+
+	</script>
+
+</body>
+</html>
